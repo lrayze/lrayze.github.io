@@ -1,5 +1,18 @@
-.w3-bar {
-    line-height: 3rem;
+.nav-bar{
+    line-height: 4rem;
+    background-color: #000000;
+}
+
+.nav-bar-item{
+    display: inline-block;
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 0 2rem;
+}
+.nav-bar-item:hover{
+    background-color: #ccc;
 }
 
 .w3-container {
@@ -16,4 +29,3 @@ footer a {
     padding-left: 5px;
     padding-right: 5px;
 }
-
