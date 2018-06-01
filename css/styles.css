@@ -1,0 +1,19 @@
+.w3-bar {
+    line-height: 3rem;
+}
+
+.w3-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.w3-row-padding {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+footer a {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+

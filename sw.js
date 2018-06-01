@@ -4,7 +4,7 @@ const CACHE_NAME = 'cache_website',
   urlsToCache = [
     './',
     './css/font-awesome/css/font-awesome.min.css',
-    './css/style.css',
+    './css/styles.css',
     './css/w3.css',
     './script.js',
     './img/img_band_la.jpg',
