@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Band</title>
+    <meta name="description" content="The Band's website.">
+    <!-- Mobile meta tags -->
+    <meta name="theme-color" content="#fefefe">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!--Open Graph para Facebook-->
+    <meta property='og:locale' content='es_EN'>
+    <meta property='og:type' content='website'>
+    <meta property='og:url' content='https://lrayze.github.io/'>
+    <meta property="og:image" content="https://lrayze.github.io/pic-fb.jpg">
+    <meta property='og:title' content='The Band'>
+    <meta property='og:site_name' content='lrayze'>
+    <meta property='og:description' content="The Band's website">
+    <!-- Icons -->
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <link rel="apple-touch-startup-image" href="./img/favicon.png">
+    <link rel="apple-touch-icon" href="./img/favicon.png">
+    <!-- Manifest -->
+    <link rel="manifest" href="./manifest.json">
+    <!-- Styles -->
+	<link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/w3.css">
+
+    <style>
+        .w3-bar{
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+        .w3-container{
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+        .w3-row-padding{
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+        footer a{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+	<!-- Navigation -->
+	<nav class="w3-bar w3-black">
+		<a href="#home" class="w3-button w3-bar-item">Home</a>
+		<a href="#band" class="w3-button w3-bar-item">Band</a>
+		<a href="#tour" class="w3-button w3-bar-item">Tour</a>
+		<a href="#contact" class="w3-button w3-bar-item">Contact</a>
+	</nav>
+
+	<!-- Slide Show -->
+	<section>
+		<img class="mySlides" src="./img/img_band_la.jpg" style="width:100%">
+		<img class="mySlides" src="./img/img_band_ny.jpg" style="width:100%">
+		<img class="mySlides" src="./img/img_band_chicago.jpg" style="width:100%">
+	</section>
+
+	<!-- Band Description -->
+	<section class="w3-container w3-center w3-content" style="max-width:800px">
+		<h2 class="w3-wide">THE BAND</h2>
+		<p class="w3-opacity"><i>We love music</i></p>
+		<p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</section>
+
+	<!-- Band Members -->
+	<section class="w3-row-padding w3-center w3-light-grey">
+		<article class="w3-third">
+			<p>John</p>
+            <img src="./img/bandmember-2.jpg" alt="Random Name" style="width:100%">
+			<p>John is the smartest.</p>
+		</article>
+		<article class="w3-third">
+			<p>Paul</p>
+			<img src="./img/bandmember-1.jpg" alt="Random Name" style="width:100%">
+			<p>Paul is the prettiest.</p>
+		</article>
+		<article class="w3-third">
+			<p>Ringo</p>
+			<img src="./img/bandmember-3.jpg" alt="Random Name" style="width:100%">
+			<p>George is the funniest.</p>
+		</article>
+	</section>
+
+	<!-- Footer -->
+	<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
+		<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official"></i></a>
+		<a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+		<a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+		<a href="#"><i class="fa fa-home"></i></a>
+		<p class="w3-medium">
+		Developed by lrayze, june 2018.
+		</p>
+	</footer>
+
+	<script>
+		// Automatic Slideshow - change image every 3 seconds
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}
+			x[myIndex-1].style.display = "block";
+			setTimeout(carousel, 2500);
+		}
+    </script>
+
+    <script src="./script.js"></script>
+</body>
+</html>

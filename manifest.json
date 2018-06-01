@@ -1,0 +1,29 @@
+{
+  "name": "The Band",
+  "short_name": "The Band",
+  "description": "The Band's website.",
+  "background_color": "#fff",
+  "theme_color": "#fefefe",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-EN",
+  "icons": [
+    {
+        "src": "./img/TheBand.png",
+        "sizes": "200x200",
+        "type": "image/png"
+    },
+    {
+      "src": "./img/icon_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/favicon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}
