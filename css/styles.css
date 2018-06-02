@@ -9,7 +9,7 @@
     font-size: 1rem;
     text-decoration: none;
     transition: 0.4s;
-    padding: 0 1.0rem;
+    padding: 0 1.1rem;
 }
 .nav-bar-item:hover{
     background-color: #ccc;
@@ -26,6 +26,6 @@
 }
 
 footer a {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
