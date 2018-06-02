@@ -1,4 +1,3 @@
-;
 //Asignar un nombre y versión al cache
 const CACHE_NAME = 'cache_website',
   urlsToCache = [
