@@ -9,7 +9,7 @@
     font-size: 1rem;
     text-decoration: none;
     transition: 0.4s;
-    padding: 0 1.5rem;
+    padding: 0 1.0rem;
 }
 .nav-bar-item:hover{
     background-color: #ccc;

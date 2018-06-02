@@ -48,7 +48,7 @@ self.addEventListener('activate', e => {
   )
 })
 
-//Cuando el navegador vuelve a estar en línea (recuperauna url)
+//Cuando el navegador vuelve a estar en línea (recupera una url)
 self.addEventListener('fetch', e => {
 	//Responder ya sea con el objeto en caché o continuar y buscar la url real
 	e.respondWith(
