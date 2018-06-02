@@ -25,25 +25,34 @@
 			background-repeat: no-repeat;
             background-size: cover;
 
-            color: #fff;
-            font-family: arial, serif;
-            font-size: 3rem;
-            text-decoration: underline;
-
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
         }
+        p{
+            color: #fff;
+            font-family: arial, serif;
+            font-size: 3rem;
+        }
+        hr{
+            width: 10%;
+            color: #fff;
+            padding-top: 0.5rem;
+        }
         @media screen and (max-width: 360px){
-            div{
+            p{
                 font-size: 2rem;
             }
         }
-
     </style>
 </head>
 
 <body>
-    <div>COMING SOON</div>
+    <div>
+        <p>COMING SOON</p>
+        <hr>
+    </div>
+
 </body>
 </html>
