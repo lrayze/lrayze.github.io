@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Band Page</title>
 
+    <link rel="stylesheet" href="./css/w3.css">
     <style>
         html {
             box-sizing: border-box;
@@ -20,6 +21,21 @@
             font-size: 1rem;
             margin: 0;
             padding: 0;
+        }
+
+        .nav-bar{
+            display: inline-block;
+            position: fixed;
+            line-height: 4rem;
+            background-color: #444;
+        }
+        .nav-bar-item{
+            display: inline-block;
+            color: #fff;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: 0.4s;
+            padding: 0 1.1rem;
         }
 
         .container {
@@ -63,6 +79,9 @@
 </head>
 
 <body>
+    <nav class="nav-bar">
+        <a href="./index.html" class="nav-bar-item">Inicio</a>
+    </nav>
     <div class="container">
         <p>COMING SOON</p>
         <div class="fake"></div>
