@@ -2,6 +2,10 @@
 const CACHE_NAME = 'cache_website',
   urlsToCache = [
     './',
+    './index.html',
+    './band.html',
+    './contact.html',
+    './tour.html',
     './css/font-awesome/css/font-awesome.min.css',
     './css/styles.css',
     './css/w3.css',
@@ -12,6 +16,9 @@ const CACHE_NAME = 'cache_website',
     './img/bandmember-2.jpg',
     './img/bandmember-1.jpg',
     './img/bandmember-3.jpg',
+    './img/bandpage_mini.jpg',
+    './img/contactpage_mini.jpg',
+    './img/tourpage_mini.jpg',
     './img/favicon.png'
   ]
 
